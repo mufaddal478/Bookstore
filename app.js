@@ -13,4 +13,4 @@ const stockInput = document.getElementById('stock');
 // Load books from the contract and display them in the table
 async function loadBooks() {
     bookTable.innerHTML = '';
-    const bookCount = await bookstore.methods
+    const bookCount = await bookstore.methods // New commment
